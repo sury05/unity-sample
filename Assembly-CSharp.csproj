@@ -679,6 +679,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".github\workflows\activation.yaml" />
+    <Content Include=".github\workflows\main.yaml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
